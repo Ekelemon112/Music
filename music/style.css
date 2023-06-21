@@ -1,0 +1,616 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #000;
+}
+
+.box{
+    font-family: 'Geologica', sans-serif;
+    display: flex;
+    padding: 1.5rem 1.5rem;
+    gap: 6rem;
+    background-color: #000;
+}
+
+.box h1{
+    color: red;
+}
+
+.box span{
+    font-family: 'Tilt Prism', cursive;
+    color: blue;
+    padding: 0.5rem;
+}
+
+.box i{
+    font-size: 2rem;
+    color: #fff;
+    overflow: hidden;
+}
+
+.box a i:hover{
+    color: orange;
+    transition: 0.5s;
+}
+
+.box span i{
+    color: red;
+}
+
+.box ul{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    padding: 0.5rem;
+}
+
+.box ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.box ul li a:hover{
+    opacity: .6;
+    transition: 0.5s;
+}
+
+.box img{
+    width: 50px;
+    border-radius: 3rem;
+}
+
+.All{
+    overflow: hidden;
+    display: flex;
+    background-color: orange;
+    border: solid #0c0c0c;
+    /* border: solid white; */
+    /* box-sizing: border-box; */
+    /* width: 1263px; */
+    height: 590px;
+}
+
+
+.music img{
+    overflow: hidden;
+    position: absolute;
+    width: 190px;
+    left: 16rem;
+    top: 6.7rem;
+} 
+
+
+.im img{
+    padding-top: 2rem;
+    width: 400px;
+    top: 9rem;
+} 
+
+.xn{
+    position: relative;
+    width: 550px;
+    height: 250px;
+    left: 2rem;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    top: 10rem;
+}
+
+.xn h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    padding-left: 4rem;
+    padding: 0.4rem;
+}
+
+.xn p{
+    padding: 0.5rem;
+    width: 500px;
+}
+
+.xn h3{
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.xn ul {
+    display: inline-flex;
+    list-style-type: none;
+    gap: 1.5rem;
+    font-weight: 700;
+}
+
+.xn ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.ms img{
+    width: 359px;
+}
+
+.AD img{
+    position: absolute;
+    width: 465px;
+    height: 218px;
+    right: 7rem;
+    top: 30rem;    
+}
+
+.T{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    color: orange;
+    gap: 1rem;
+    padding: 1.5rem  1.5rem;
+    background-color: #100f0ff5;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.T i{
+    font-size: 2rem;
+}
+
+.T p{
+    padding-left: 55rem;
+}
+
+.T p a{
+    text-decoration: none;
+    color: #fff;
+    background-color: orange;
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+
+.mack{
+    display: flex;
+    gap: 1rem;
+    background-color: #000;
+}
+
+.mack img{
+    width: 200px;
+    padding-left: 2rem;
+}
+
+.ver{
+    padding: 3rem;
+    font-size: 25px;
+    text-align: center;
+    background-color: #000;
+}
+
+.ver p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    display: inline;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    background-color: orange;
+    border-radius: 1.5rem;
+}
+
+.ver p a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.afro{
+    background-color: #000;
+    padding: 2rem;
+}
+
+.afro i{
+    color: orange;
+    font-size: 29px;
+}
+
+.afro span{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.afro p{
+    color: #fff;
+    background-color: #373030;
+    font-size: 25px;
+}
+
+.emn{
+  display: flex;
+   
+}
+
+.emn img{
+    width: 300px;
+}
+
+.top{
+    text-align: center;
+    padding: 2rem;
+    background-color: #1b1919;
+}
+ .top h4 a{
+    color: #fff;
+    text-decoration: none;
+    background-color: orange;
+    padding: 1.2rem;
+    border-radius: 2rem;
+ }
+
+.audio{
+    display: flex;
+    padding: 3.1rem;
+    gap: 1rem;
+    background-color: #000;
+}
+
+.hp {
+    background-image: url(./eer/hp--bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    height: 300px;
+    width: 550px;
+    gap: 2rem;
+}
+
+.hp h5{
+    font-family: 'Yellowtail', cursive;
+    font-weight: 600;
+    font-size: 50px;
+    color: #fff;
+    padding: 1rem;
+}
+
+span{
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.hp p{
+   color: #fff;
+   width: 550px;
+   padding: 1.5rem;
+}
+
+.hp a{
+    color: #fff;
+    bottom: 2rem;
+    background-color: orange;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+
+.hp2{
+    background-image: url(./eer/world-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    height: 300px;
+    width: 500px;
+    gap: 2rem;
+}
+
+.hp2 i{
+    font-size: 40px;
+    color: #fff;
+    padding-right: 20rem;
+}
+
+.hp2 h6{
+   font-size: 30px;
+   color: #fff;
+}
+   
+.hp2 p{
+
+   color: #fff;
+   padding: 1.5rem;
+}
+
+.hp2 a{
+   color: #fff;
+   background-color: orange;
+   text-decoration: none;
+   padding: 1rem 2.5rem;
+   border-radius: 2rem;
+}
+
+.song{
+    display: flex;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #262424; 
+}
+
+.song i{
+    font-size: 25px;
+    color: orange;
+}
+
+.song h1{
+    font-family:  Arial, sans-serif;
+    font-size: 25px;
+    color: #fff;
+}
+
+.song p{
+    padding: 0.5rem;
+    padding-left: 55pc;
+    color: #fff;  
+}
+
+.song p a{
+    color: #fff;
+    text-decoration: none;
+    background-color: orange;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.label{
+    display: flex;
+    gap: 1.5rem;
+    padding: 2.5rem;
+}
+
+.label img{
+    width: 270px;
+}
+
+.sss{
+    font-family: sans-serif;
+    font-weight: 900;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.sss a{
+    color: #fff;
+    text-decoration: none;
+    background-color: orange;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.TA{
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.TA img{
+    width: 270px;
+}
+
+.TS{
+    font-family:  sans-serif;
+    font-weight: 600;
+    padding: 2rem;
+    text-align: center;
+}
+
+.TS a{
+    color: #fff;
+    text-decoration: none;
+    background-color: orange;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.SS{
+    background-color: #1b1919;
+    display: flex;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.SS i{
+    color: orange;
+    font-size: 40px;
+}
+
+.SW h2{
+    padding: 0.3rem;
+    color: #fff;
+}
+
+.WW a{
+    background-color: orange;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 54rem;
+}
+
+.SWA{
+    justify-content: center;
+    padding: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.SWA img{
+    width: 270px;
+}
+
+.boss{
+    overflow: hidden;
+    display: flex;
+    padding: 3rem;
+    background-image: url(/eer/hp-background-mosaic.jpg);
+}
+ 
+.ZZ{
+   padding: 2rem;
+}
+
+.ZZ img{
+    width: 600px;
+}
+
+.OZ{
+    color: #fff;
+    padding-top: 10rem;
+}
+
+.OZ h3{
+    font-size: 40px;
+}
+
+span{
+    color: orange;
+    font-weight: 900;
+}
+
+.OZ p{
+   padding: 1rem;
+   width: 430px;
+}
+
+.AZ{
+    padding-top: 22rem;
+    padding-right: 2rem;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    gap: 9rem;
+    text-align: center;
+    color: #fff;
+    background-color: #0c0c0c;
+    padding: 5rem;
+}
+
+.solo h4{
+    padding-right: 6rem;
+    color: red;
+}
+
+.solo span{
+    color: blue;
+    font-family: 'Tilt Prism', cursive;
+    padding: 0.5rem;
+}
+
+.solo p{
+   padding: 2rem; 
+   font-size: 14px;
+}
+
+.browse h5{
+    font-size: 20px;
+    text-align: left;
+}
+
+.browse ul{
+    line-height: 1.5rem;
+    font-size: 15px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.browse ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.browse ul li a:hover{
+    opacity: .5;
+}
+
+.about h6{
+    font-size: 20px;
+    text-align: left;
+}
+.about ul{
+    line-height: 1.5rem;
+    font-size: 14px;
+    text-align: left;
+    list-style-type: none;
+}
+.about ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.about ul li a:hover{
+    opacity: .5;
+}
+
+
+.resources h1{
+  font-size: 20px;
+  text-align: left;
+}
+
+.resources ul{
+    font-size: 14px;
+    line-height: 1.5rem;
+    list-style-type: none;
+    text-align: left;
+}
+
+.resources ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.resources ul li a:hover{
+    opacity: .5;
+}
+
+
+.follow{
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    padding: 1rem;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.follow h2{
+    padding: 1rem;
+}
+
+.follow i{
+    color: #fff;
+    font-size: 30px;
+}
+
+.follow a i:hover{
+    color: orange;
+    transition: 0.5s;
+}
+
+.end{
+    padding: 1.5rem;
+    padding-left: 38rem;
+}
+
+.end img{
+    padding: 0.5rem;
+    border: solid #fff;
+    border-radius: 0.5rem;
+}
